@@ -1,0 +1,20 @@
+p {
+    font-size: 20px;
+    max-width: 1000px;
+    position: relative;
+}
+
+p::before {
+    content: "Открой консоль";
+    color: red;
+    background-color: yellow;
+    position: absolute;
+    top: 100%;
+    left: 50px;
+    padding: 30px;
+    opacity: 0;
+}
+
+p:hover::before{
+    opacity: 1;
+}

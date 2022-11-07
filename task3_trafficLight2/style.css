@@ -1,42 +1,46 @@
-
 body{
-  background-color:whitesmoke;
+  background-color:aquamarine;
   display: flex;
   align-items: center;
   justify-content: center;
+  order: 1;
   flex-direction: column;
-  margin: 50px;
+  margin: 40px;
 }
-
 
 #trafficLight_box{
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 130px;
-  width: 130px;
+  height: 350px;
+  width: 120px;
   background-color:gray;
+  left: 150px;
   border-radius: 50px;
 }
 
 #post{
-  height: 350px;
+  height: 300px;
   width: 40px;
-  background-color:gray;
+  background-color:green;
   display: flex;
   align-items: center;
 }
 
 #footing{
-  background-color:gray;
+  background-color:darkgreen;
   height: 20px;
-  width: 120px;
+  width: 170px;
   border-radius: 50%;
+
 }
 
-#trafficLight {
+.trafficLight{  
+  margin: 10px;
+  padding: 0px;
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: black;
+  background: black;     
 }

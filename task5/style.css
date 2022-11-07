@@ -1,0 +1,9 @@
+input::placeholder {
+    color: deepskyblue;
+    transform: 0.5s;
+}
+
+input:focus::placeholder {
+    color: transparent;
+    transform: 0.5s;
+}
